@@ -18,6 +18,11 @@
 
 ### Como Rodar o projeto?
 
+#### Rode o comandos
+
+- Add-Migration Initial
+
+- Update-Database
 
 - É necessário ter o Asp.net Core 2.2 instalado na máquina e suas dependências.
 
