@@ -18,14 +18,13 @@
 
 ### Como Rodar o projeto?
 
-#### Rode o comandos
+- É necessário ter o Asp.net Core 2.2 instalado na máquina e suas dependências.
+
+#### Rode os comandos
 
 - Add-Migration Initial
 
 - Update-Database
 
-- É necessário ter o Asp.net Core 2.2 instalado na máquina e suas dependências.
-
-
-- Abra o projeto no Visual Studio Aperte Ctrl + F5 e projeto rodará.
+- No Visual Studio Aperte Ctrl + F5 e projeto rodará.
 
