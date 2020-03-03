@@ -13029,11 +13029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emanuel Augusto\\Desktop\\DesafioRueda\\CadastroDePessoas\\CadastroDePessoas.csproj",
+      "projectUniqueName": "C:\\Users\\Emanuel Augusto\\Desktop\\clone\\DesafioRueda\\CadastroDePessoas.csproj",
       "projectName": "CadastroDePessoas",
-      "projectPath": "C:\\Users\\Emanuel Augusto\\Desktop\\DesafioRueda\\CadastroDePessoas\\CadastroDePessoas.csproj",
+      "projectPath": "C:\\Users\\Emanuel Augusto\\Desktop\\clone\\DesafioRueda\\CadastroDePessoas.csproj",
       "packagesPath": "C:\\Users\\Emanuel Augusto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emanuel Augusto\\Desktop\\DesafioRueda\\CadastroDePessoas\\obj\\",
+      "outputPath": "C:\\Users\\Emanuel Augusto\\Desktop\\clone\\DesafioRueda\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
