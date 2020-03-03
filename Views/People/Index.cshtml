@@ -1,0 +1,42 @@
+﻿@model IEnumerable<CadastroDePessoas.Models.People>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Listagem de Pessoas</h1>
+
+<p>
+    <a asp-action="Create" class=" right  waves-light btn"><i class="material-icons right">add</i>Adicionar nova pessoa</a>
+</p>
+
+<br />
+<br />
+<br />
+
+<ul class="collapsible popout">
+
+    @foreach (var item in Model)
+    {
+    <li title="Detalhar">
+        <div class="collapsible-header">
+            <i class="material-icons">face</i>
+            @Html.DisplayFor(modelItem => item.NomeCompleto)
+            <span class="badge"><i class="material-icons" title="Detalhar">details</i></span>
+        </div>
+        <div class="collapsible-body">
+                <h3>Data de nascimento</h3>
+                <p>@Html.DisplayFor(modelItem => item.DataNascimento)</p>
+                <h3>Salário</h3>
+                <p>@Html.DisplayFor(modelItem => item.Salario)</p>
+            
+                <div class="right">
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="right  waves-light btn"><i class="material-icons right">edit</i>Editar</a>
+                    <a href="javascript:deletePeople(@item.Id)" class="right  waves-light btn red"><i class="material-icons right">delete</i>Deletar</a>
+                </div>
+            <br />
+            <br />
+        </div>
+    </li>
+    }
+</ul>

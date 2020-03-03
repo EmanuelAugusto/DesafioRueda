@@ -1,0 +1,60 @@
+﻿@model CadastroDePessoas.Models.People
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Adicionar Pessoa</h2>
+<div class="left">
+    <a class="waves-effect waves-light btn" title="Voltar" asp-action="Index">
+        <i class="material-icons">arrow_back</i>
+    </a>
+</div>
+<br />
+<br />
+<br />
+<div id="termos" class="m6 m12" style="margin-bottom:590px">
+    <p>*Para se cadastrar no sistema é preciso ser maior de 18 anos e ter menos que 60 anos. Digite sua idade abaixo</p>
+    <div class="input-field col m4 s4">
+        <input style="width:30px; text-align:center" type="text" name="idade" id="idade" maxlength="3" />
+    </div>
+    <a href="javascript:termos()" class="waves-effect waves-light btn">Aceito os termos</a>
+
+</div>
+
+
+
+<div id="divForm" class="row" style="display:none; margin-bottom:530px">
+    <div class="center m4 m12">
+        <form id="form" class="form center">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="input-field col s12 m6">
+                <input asp-for="NomeCompleto" placeholder="Digite aqui" id="NomeCompleto" type="text" class="validate">
+                <label asp-for="NomeCompleto" for="NomeCompleto">Nome Completo</label>
+                <span asp-validation-for="NomeCompleto" class="text-danger"></span>
+            </div>
+
+            <div class="input-field col s12 m6">
+                <input asp-for="DataNascimento" placeholder="Digite aqui" id="DataNascimento" type="date" class="validate">
+                <label asp-for="DataNascimento" for="DataNascimento">Data Nascimento</label>
+                <span asp-validation-for="DataNascimento" class="text-danger"></span>
+            </div>
+
+            <div class="input-field col s12 m6 center">
+                <input asp-for="Salario" placeholder="Digite aqui" id="Salario" type="text" class="validate">
+                <label asp-for="Salario" for="Salario">Salário</label>
+                <span asp-validation-for="Salario" class="text-danger"></span>
+            </div>
+            <div class="col s12 m12">
+                <a href="javascript:createUser()" class="waves-effect waves-light btn">Cadastrar pessoa</a>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
