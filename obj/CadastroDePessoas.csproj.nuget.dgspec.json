@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emanuel Augusto\\Desktop\\clone\\DesafioRueda\\CadastroDePessoas.csproj": {}
+    "C:\\Users\\Emanuel Augusto\\Desktop\\Nova pasta\\DesafioRueda\\CadastroDePessoas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emanuel Augusto\\Desktop\\clone\\DesafioRueda\\CadastroDePessoas.csproj": {
+    "C:\\Users\\Emanuel Augusto\\Desktop\\Nova pasta\\DesafioRueda\\CadastroDePessoas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emanuel Augusto\\Desktop\\clone\\DesafioRueda\\CadastroDePessoas.csproj",
+        "projectUniqueName": "C:\\Users\\Emanuel Augusto\\Desktop\\Nova pasta\\DesafioRueda\\CadastroDePessoas.csproj",
         "projectName": "CadastroDePessoas",
-        "projectPath": "C:\\Users\\Emanuel Augusto\\Desktop\\clone\\DesafioRueda\\CadastroDePessoas.csproj",
+        "projectPath": "C:\\Users\\Emanuel Augusto\\Desktop\\Nova pasta\\DesafioRueda\\CadastroDePessoas.csproj",
         "packagesPath": "C:\\Users\\Emanuel Augusto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emanuel Augusto\\Desktop\\clone\\DesafioRueda\\obj\\",
+        "outputPath": "C:\\Users\\Emanuel Augusto\\Desktop\\Nova pasta\\DesafioRueda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
